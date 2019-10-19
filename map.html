@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PlaceKeeper</title>
+</head>
+
+<body onload="initMap()">
+    <div id="map" style="width:100%;height:500px;"></div>
+    <!-- <p id="locationError"></p> -->
+    <button class="home" onclick="getUserCords()"><img src="img/location.png" ></button>
+
+    <ul class="newPlaces">
+    </ul>
+
+
+    <a href="index.html">Index</a>
+    <a href="user-prefs.html">user</a>
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7CesngUTwEiPGTHR4xr4ihP34lafhcXU">
+    </script>
+    <script src="js/utilService.js"></script>
+    <script src="js/placeService.js"></script>
+    <script src="js/placeController.js"></script>
+
+</body>
+
+</html>

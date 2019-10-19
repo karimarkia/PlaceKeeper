@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PlaceKeeper</title>
+</head>
+
+<body>
+
+    <form action="">
+        <label for="user-name">User name :</label>
+        <input type="text" name="user-name" class="userName" required>
+
+        <label for="user-email">Email :</label>
+        <input type="email" name="user-email" class="userEmail" required>
+
+        <label for="">Range</label>
+        <input type="range" name="" min="18" max="120">
+
+        <label for="bgc-color">Background color : </label>
+        <input type="color" name="bgc-color" class="bgcColor">
+
+        <label for="text-color">Text color : </label>
+        <input type="color" name="text-color" class="textColor">
+
+        <label for="user-birth">Birth Me :</label>
+        <input type="date" name="user-birth" class="userBirth">
+
+        <label for="time-zone">Time is :</label>
+        <input type="time" name="time-zone" class="timeZone">
+
+        <button type="submit" onclick="onSubmit(event)">Submit</button>
+    </form>
+
+    <a href="index.html">Index</a>
+    <a href="map.html">Map</a>
+
+    <script src="js/utilService.js"></script>
+    <script src="js/userPrefService.js"></script>
+    <script src="js/placeService.js"></script>
+
+</body>
+
+</html>
