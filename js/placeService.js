@@ -43,13 +43,13 @@ var placeNewMarker = (latLng, map) => {
     renderPlaces()
 }
 
-var deletePlace = (placeId) => {
+var deletePlace = placeId => {
     let placeById = gPlaces.findIndex(place => place.id === placeId)
     gPlaces.splice(placeById, 1)
     savePlacessToStorage()
 }
 
-var getPlace = (id) => {
+var getPlace = id => {
     let foundPlace = gPlaces.find(place => id === place.id)
     return foundPlace
 }

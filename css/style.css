@@ -43,3 +43,13 @@ li{
     list-style-type: none;
     background-color:whitesmoke;;
 }
+
+.user-form{
+    display: flex;
+    justify-content: center;
+    /* align-self: center; */
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  
+}
